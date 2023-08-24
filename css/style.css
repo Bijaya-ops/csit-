@@ -107,3 +107,37 @@ footer .container{
 .footer_box ul li a:hover{
     text-decoration: underline;
 }
+
+#contact .container{
+    display: flex;
+}
+.form, .map{
+    width: 50%;
+}
+
+.form label{
+    font: bold 16 px arial;
+    padding: 5px 0;
+    display: block;
+}
+.form input, .form textarea{
+    width: 100%;
+    padding: 5px;
+}
+.form input[type=submit]{
+    padding: 10px;
+    margin-top: 10px;
+    width: 200px;
+    background-color: steelblue;
+    border: none;
+    color: white;
+    font: bold 18px arial;
+    text-transform: capitalize;
+    border-radius: 10px;
+}
+.form input[type=submit]:hover{
+    cursor: pointer;
+    background-color: yellow;
+    color: black;
+}
+
